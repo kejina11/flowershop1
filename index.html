@@ -28,17 +28,6 @@
     border: 2px solid green;
 }
 
-
-button {
-            background-color: rgb(129, 229, 166);
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            cursor: pointer;
-            margin-top: 5px;
-            border-radius: 4px;
-        }
-
         ul {
             list-style-type: none;
             margin: 0;
@@ -65,6 +54,37 @@ button {
         .hero{
   text-align: center;
 }
+.image-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px; 
+    margin: 0 auto;    
+}
+
+.flower-item {
+            width: 188px;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        .flower-item img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover; 
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
 
 </style>
 </head>
@@ -88,6 +108,40 @@ button {
         <a href="products.html" class="btn">Shop Now</a>
         </section>
 
-</body>
+        <br><h2 style="color:rgb(5, 116, 44);text-align: center;">Fresh Flowers</h2>
 
+        <div class="image-container">
+        
+            <div class="flower-item">
+              <img src="rose.jpeg" alt="Rose">
+                <p>Red Rose
+                    <br>Rs 800
+                </p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="flower-item">
+                <img src="rose1.jpeg" alt="Rose">
+                <p>Pink Garden Rose
+                    <br>Rs 700
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="rose3.jpeg" alt="Rose">
+                <p>Yellow Sunshine Rose
+                    <br>Rs 1000
+                </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="flower-item">
+                <img src="rose4.jpeg" alt="Rose">
+                <p>Classic White Rose
+                    <Br>Rs 900
+                </p>
+                <button>Add to Cart</button>
+            </div>
+      
+        </div>
+</body>
 </html>
