@@ -13,15 +13,6 @@
             text-align: center;
         }
 
-        button {
-            background-color: rgb(129, 229, 166);
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            cursor: pointer;
-            margin-top: 5px;
-            border-radius: 4px;
-        }
         .header-with-logo {
     display: flex;
     align-items: center;
@@ -36,6 +27,42 @@
     object-fit: cover;
     border: 2px solid green;
 }
+
+
+button {
+            background-color: rgb(129, 229, 166);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            margin-top: 5px;
+            border-radius: 4px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: green;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: lightgreen;
+        }
+
 </style>
 </head>
 <body>
@@ -45,6 +72,12 @@
     <h1>Shree Floral and DIY Store</h1>
 </div>
 <br>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+    </ul>
 </body>
 
 </html>
